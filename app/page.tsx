@@ -39,11 +39,19 @@ export default function Home() {
   return <main>
     <nav className="nav"><a className="brand" href="#">✦ Autograph Book<span>'10</span></a><a href="#guestbook">Read messages ↗</a></nav>
     <section className="hero">
-      <div className="eyebrow">A LITTLE SPACE FOR YOUR WORDS</div>
-      <h1>Leave a little note.<br/><em>Make a lasting memory.</em></h1>
-      <p>Every name has a story. Every message becomes a memory.<br/>Add your words to our little book.</p>
-      <a className="cta" href="#write">Write an autograph <span>↓</span></a>
-      <div className="scribble">with love, always ✍</div>
+      <div className="hero-copy">
+        <div className="eyebrow">✧ &nbsp; A LITTLE SPACE FOR YOUR WORDS &nbsp; ✧</div>
+        <h1>Leave a little note.<br/><em>Make a lasting memory.</em></h1>
+        <p>Every name has a story. Every message becomes a memory.<br/>Add your words to our little book.</p>
+        <a className="cta" href="#write">Write an autograph <span>↓</span></a>
+        <div className="scribble">with love, always ✍</div>
+      </div>
+      <div className="hero-visual" role="img" aria-label="A beautiful journal, flowers and a handwritten note">
+        <div className="visual-tag">little words, big memories ♡</div>
+      </div>
+      <span className="floating-flower flower-a">✿</span>
+      <span className="floating-flower flower-b">✧</span>
+      <span className="floating-flower flower-c">♡</span>
     </section>
     <section className="write section" id="write">
       <div className="section-kicker">01 / YOUR PAGE</div><h2>Make your mark.</h2>
